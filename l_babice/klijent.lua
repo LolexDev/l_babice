@@ -34,7 +34,6 @@ Citizen.CreateThread(function ()
                         progressbar3('Doktor vas ozivljava...',v.revVreme * 1000)
                         ClearPedTasks(Ped)
                         TriggerEvent('esx_ambulancejob:revive')
-                        TriggerServerEvent('l_babice:naplati', v.cena)
                         ozivljavase = false
                         mrtav = false
                       else
